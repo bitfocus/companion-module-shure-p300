@@ -243,7 +243,7 @@ instance.prototype.actions = function (system) {
 		channelList.push(channelListObj);
 	}
 
-	self.system.emit('instance_actions', self.id, {
+	self.setActions({
 		'get_all_status': {
 			label: 'Get Updated Status of Device'
 		},
