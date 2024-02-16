@@ -1,26 +1,14 @@
 {
 	"name": "shure-p300",
-	"version": "1.0.1",
-	"api_version": "1.0.0",
-	"keywords": [
-		"Shure"
-	],
-	"manufacturer": "Shure",
-	"product": "P300",
-	"shortname": "p300",
-	"description": "",
-	"main": "index.js",
+	"version": "2.0.0",
+	"main": "main.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/bitfocus/companion-module-shure-p300.git"
+	"dependencies": {
+		"@companion-module/base": "~1.7.0"
 	},
-	"author": "Joseph Adams <josephdadams@gmail.com>",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/bitfocus/companion-module-shure-p300/issues"
-	},
-	"homepage": "https://github.com/bitfocus/companion-module-shure-p300#readme"
+	"devDependencies": {
+		"@companion-module/tools": "^1.5.0"
+	}
 }

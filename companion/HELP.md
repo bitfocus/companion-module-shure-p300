@@ -10,3 +10,4 @@ This module will connect to a Shure P300 Device.
 
 **Available feedbacks**
 * Flash State
+* Active Preset
