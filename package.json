@@ -1,6 +1,7 @@
 {
 	"name": "shure-p300",
 	"version": "2.0.0",
+	"license": "MIT",
 	"main": "main.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
